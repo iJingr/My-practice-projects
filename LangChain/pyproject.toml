@@ -1,0 +1,18 @@
+[project]
+name = "langchain-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jinger", email = "2207638343@qq.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.165.0",
+    "langchain>=1.5.2",
+    "langchain-community>=0.4.2",
+    "langchain-deepseek>=1.2.1",
+    "langchain-openai>=1.8.5",
+    "python-dotenv>=1.2.4",
+    "uvicorn>=0.54.0",
+]
